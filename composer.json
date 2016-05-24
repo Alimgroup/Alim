@@ -1,0 +1,27 @@
+{
+    "name": "alim/alim",
+    "description": "The Alim Framework.",
+    "keywords": ["framework", "alim"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.0.0",
+        "alim/framework": "1.0.0"
+    },
+    "require-dev": {
+        "alim/modul/html": "1.0.0"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.alim.example', '.alim');\""
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jumadil Abdul Rahman Selian",
+            "email": "mail@alimstudio.com",
+            "homepage": "http://www.alimstudio.com",
+            "role": "Developer"
+        }
+    ]
+}
